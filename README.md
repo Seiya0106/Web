@@ -1,3 +1,3 @@
 # Web
 Webページを公開するリポジトリ
-![icon](https://github.com/user-attachments/assets/3fd41f80-41f2-4847-a509-0297d5df4176)
+![Image](<img width="1024" height="1024" alt="htmlImage" src="https://github.com/user-attachments/assets/2d49b4e5-fc22-4e4b-be29-822d3febdfa0"/>
