@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>自己紹介</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', 'Meiryo', sans-serif;
+        background: #05a01f;
+        margin: 0;
+        padding: 0;
+        color: #222;
+      }
+      .profile-container {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        max-width: 600px;
+        margin: 32px auto;
+        padding: 32px;
+        text-align: center;
+      }
+      .profile-image {
+        border-radius: 30%;
+        border: 4px solid #7dcfff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-bottom: 18px;
+      }
+      h1 {
+        color: #ffffff;
+        margin-top: 24px;
+      }
+      h2 {
+        color: #000000;
+        font-weight: normal;
+      }
+      h3{
+        color: #000000;
+        font-weight: normal;
+      }
+      h4{
+        color: #000000;
+        font-weight: normal
+      }
+      a {
+        color: #0004ff;
+        text-decoration: none;
+        margin: 8px 12px;
+        font-size: 1.1em;
+        transition: color 0.2s;
+      }
+      a:hover {
+        color: #00b3ff;
+        text-decoration: underline;
+      }
+      #showLinkedIn {
+        background: #004bf9;
+        color: #ffffff;
+        border: none;
+        padding: 10px 26px;
+        border-radius: 24px;
+        cursor: pointer;
+        font-size: 1em;
+        margin: 12px 0;
+        transition: background 0.2s;
+      }
+      #showConpass {
+        background: #ff0000;
+        color: #ffffff;
+        border: none;
+        padding: 10px 26px;
+        border-radius: 24px;
+        cursor: pointer;
+        font-size: 1em;
+        margin: 12px 0;
+        transition: background 0.2s;
+      }
+      #showAtCorder {
+        background: #1f3142;
+        color: #ffffff;
+        border: none;
+        padding: 10px 26px;
+        border-radius: 24px;
+        cursor: pointer;
+        font-size: 1em;
+        margin: 12px 0;
+        transition: background 0.2s;
+      }
+      #showGitHub {
+        background: #000000;
+        color: #ffffff;
+        border: none;
+        padding: 10px 26px;
+        border-radius: 24px;
+        cursor: pointer;
+        font-size: 1em;
+        margin: 12px 0;
+      }
+      #message {
+        margin-top: 18px;
+        font-size: 1.1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>自己紹介（お試し）</h1>
+    <div class="profile-container">
+      <img src="icon.jpeg" alt="イメージ画像" class="profile-image" width="300" height="300">
+      <h2>名前: Seiya0106</h2>
+      <h3>京都産業大学<br>
+        情報理工学部情報理工学科</h3>
+      <h4>Unity(C#), Python, JavaScript勉強中</h4>
+      <p>おすすめゲーム<br>
+        <a href="https://store.steampowered.com/app/3101040/_/" target="/blank">魔法少女の魔女裁判（7/26までセールしている）</a><br>
+        <a href="https://store.steampowered.com/app/2067780/_/" target="_blank">キミガシネ</a>
+      </p>
+      <button id="showLinkedIn">LinkedIn</button>
+      <button id="showConpass">Conpass</button>
+      <button id="showAtCorder">AtCorder</button>
+      <button id="showGitHub">GitHub</button>
+      <div id="message"></div>
+    </div>
+    <script>
+      document.getElementById("showGitHub").onclick = function() {
+        window.open("https://github.com/Seiya0106", "_blank");
+      };
+      document.getElementById("showAtCorder").onclick = function() {
+        window.open("https://atcoder.jp/users/Red0106", "_blank");
+      };
+      document.getElementById("showLinkedIn").onclick = function() {
+        window.open("https://www.linkedin.com/in/%E6%83%BA%E4%B9%9F-%E5%8C%97%E5%B7%9D-6a48a335b/", "_blank");
+      };
+      document.getElementById("showConpass").onclick = function() {
+        window.open("https://connpass.com/user/Seiya_SK/", "_blank");
+    };
+    </script>
+  </body>
+</html>
