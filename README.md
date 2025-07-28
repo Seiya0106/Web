@@ -5,3 +5,4 @@ Webページを公開するリポジトリ
 |works|備考|
 |-----|-----|
 |[ 自己紹介サイト（仮）](https://seiya0106.github.io/Web/MyProfile.html) | AIに作らせたやつを改造 |
+|[password](https://seiya0106.github.io/Web/password.html)|AIに作らせたやつを改造|
