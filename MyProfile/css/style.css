@@ -69,3 +69,6 @@ body a:hover{
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
+ul{
+    list-style: none;
+}
