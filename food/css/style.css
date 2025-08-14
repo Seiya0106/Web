@@ -1,0 +1,82 @@
+body {
+  background-color: lightblue;
+  padding-top: 64px; /* 固定ナビの分の余白を少し多めに */
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+}
+
+/* ヘッダー */
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8c971;
+  z-index: 1000;
+}
+header nav ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 16px;
+  list-style: none;
+  justify-content: space-around;
+  max-width: 720px;
+}
+
+/* 見出し */
+h1 {
+  color: #08bf1a;
+  width: 720px;
+  margin: 20px auto 10px;
+  text-align: center;
+}
+h2 {
+  color: rgb(247, 144, 0);
+  width: 720px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+h3 {
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+/* 区切り線 */
+.divider {
+  border-bottom: 3px solid #ffffff;
+  margin: 20px auto;
+  width: 720px;
+}
+
+/* エントリー全体を中央寄せし、幅を統一する */
+.entry {
+  width: 720px;
+  margin: 20px auto;
+  padding: 0 8px;
+}
+
+/* 画像はコンテナ幅に合わせて中央に */
+.photo img {
+  display: block;
+  width: 100%;
+  height: 480px;      /* 必要なら固定高さ */
+  object-fit: cover;  /* トリミングして比率維持 */
+  border-radius: 4px;
+}
+
+/* 情報リスト */
+.meta {
+  list-style: none;
+  padding: 8px 0 0;
+  margin: 0;
+}
+.meta li {
+  font-size: 18px;
+  margin: 6px 0;
+  text-align: left; /* テキストは左揃え */
+}
+
+/* 既存の「画像だけに固定マージンを当てる」指定は削除
+   body ul li の display:flex も削除して整合性を保つ */
