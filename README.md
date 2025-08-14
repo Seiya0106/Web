@@ -7,4 +7,4 @@ Webページを公開するリポジトリ
 |[ 自己紹介サイト（仮）](https://seiya0106.github.io/Web/MyProfile.html) | AIに作らせたやつを改造 |
 |[password](https://seiya0106.github.io/Web/password.html)|AIに作らせたやつを改造|
 |[自己紹介サイト](https://seiya0106.github.io/Web/MyProfile/myprofile.html)|自分の力でできるだけ作った｜
-|[食べログ2025]|(https://seiya0106.github.io/Web/food/index.html)|自分で作ったやつをAIで改造|
+|[食べログ2025](https://seiya0106.github.io/Web/food/index.html)|自分で作ったやつをAIで改造|
