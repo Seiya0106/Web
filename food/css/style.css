@@ -2,7 +2,7 @@ body {
   background-color: lightblue;
   padding-top: 64px; /* 固定ナビの分の余白を少し多めに */
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+  font-family: 'Catamaran','Noto Sans JP',sans-serif;
 }
 
 /* ヘッダー */
@@ -77,6 +77,3 @@ h3 {
   margin: 6px 0;
   text-align: left; /* テキストは左揃え */
 }
-
-/* 既存の「画像だけに固定マージンを当てる」指定は削除
-   body ul li の display:flex も削除して整合性を保つ */
